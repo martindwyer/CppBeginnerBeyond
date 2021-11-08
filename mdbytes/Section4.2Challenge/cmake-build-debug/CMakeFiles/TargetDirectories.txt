@@ -1,0 +1,3 @@
+D:/SoftwareRepository/CppBeginnerBeyond/mdbytes/Section4.2Challenge/cmake-build-debug/CMakeFiles/Section4_2Challenge.dir
+D:/SoftwareRepository/CppBeginnerBeyond/mdbytes/Section4.2Challenge/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/SoftwareRepository/CppBeginnerBeyond/mdbytes/Section4.2Challenge/cmake-build-debug/CMakeFiles/rebuild_cache.dir

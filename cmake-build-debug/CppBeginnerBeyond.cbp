@@ -1,0 +1,1333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CppBeginnerBeyond"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/SoftwareRepository/CppBeginnerBeyond/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\SoftwareRepository\CppBeginnerBeyond\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f D:\SoftwareRepository\CppBeginnerBeyond\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\SoftwareRepository\CppBeginnerBeyond\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\SoftwareRepository\CppBeginnerBeyond\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CppBeginnerBeyond">
+				<Option output="D:/SoftwareRepository/CppBeginnerBeyond/cmake-build-debug/CppBeginnerBeyond.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/SoftwareRepository/CppBeginnerBeyond/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/Challenge"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/ChallengeSolution"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/Friends"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/ImplementingMethods2"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/StaticClassMembers"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Challenge"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Challenge-Solution1"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Challenge-Solution2"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Mystring-copy-assignment"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Mystring-insertion-extraction"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Mystring-move-assignment"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Mystring-operator-functions"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Mystring-operators"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Mystring-start"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/Challenge"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/ChallengeSolution"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/DerivingOurFirstClass"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/RedefiningBaseClassMethods"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/Challenge"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part1"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part2"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/SharedPointers"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/UniquePointers"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/Challenge"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ConstructorException"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\SoftwareRepository\CppBeginnerBeyond\cmake-build-debug\Makefile VERBOSE=1 CppBeginnerBeyond"/>
+					<CompileFile command="nmake /NOLOGO /f D:\SoftwareRepository\CppBeginnerBeyond\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\SoftwareRepository\CppBeginnerBeyond\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\SoftwareRepository\CppBeginnerBeyond\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CppBeginnerBeyond/fast">
+				<Option output="D:/SoftwareRepository/CppBeginnerBeyond/cmake-build-debug/CppBeginnerBeyond.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/SoftwareRepository/CppBeginnerBeyond/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/Challenge"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/ChallengeSolution"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/Friends"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/ImplementingMethods2"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/StaticClassMembers"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Challenge"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Challenge-Solution1"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Challenge-Solution2"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Mystring-copy-assignment"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Mystring-insertion-extraction"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Mystring-move-assignment"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Mystring-operator-functions"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Mystring-operators"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Mystring-start"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/Challenge"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/ChallengeSolution"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/DerivingOurFirstClass"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/RedefiningBaseClassMethods"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/Challenge"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part1"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part2"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/SharedPointers"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/UniquePointers"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/Challenge"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution"/>
+					<Add directory="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ConstructorException"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\SoftwareRepository\CppBeginnerBeyond\cmake-build-debug\Makefile VERBOSE=1 CppBeginnerBeyond/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\SoftwareRepository\CppBeginnerBeyond\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\SoftwareRepository\CppBeginnerBeyond\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\SoftwareRepository\CppBeginnerBeyond\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/SoftwareRepository/CppBeginnerBeyond/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\SoftwareRepository\CppBeginnerBeyond\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f D:\SoftwareRepository\CppBeginnerBeyond\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\SoftwareRepository\CppBeginnerBeyond\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\SoftwareRepository\CppBeginnerBeyond\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/SoftwareRepository/CppBeginnerBeyond/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\SoftwareRepository\CppBeginnerBeyond\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f D:\SoftwareRepository\CppBeginnerBeyond\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\SoftwareRepository\CppBeginnerBeyond\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\SoftwareRepository\CppBeginnerBeyond\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-10-Characters-and-Strings-Source-code/Section10/CPPStrings/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-10-Characters-and-Strings-Source-code/Section10/CStyleStrings/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-10-Characters-and-Strings-Source-code/Section10/Challenge/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-10-Characters-and-Strings-Source-code/Section10/ChallengeSolution/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-10-Characters-and-Strings-Source-code/Section10/CharFunctions/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-11-Functions-Source-code/Section11/ArraysAndFunctions/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-11-Functions-Source-code/Section11/Challenge/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-11-Functions-Source-code/Section11/ChallengeSolution/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-11-Functions-Source-code/Section11/DefaultArguments/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-11-Functions-Source-code/Section11/Factorial/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-11-Functions-Source-code/Section11/Fibonacci/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-11-Functions-Source-code/Section11/FunctionDefinitions/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-11-Functions-Source-code/Section11/FunctionOverloading/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-11-Functions-Source-code/Section11/FunctionParamters/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-11-Functions-Source-code/Section11/FunctionPrototypes/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-11-Functions-Source-code/Section11/HowFunctionCallsWork/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-11-Functions-Source-code/Section11/Math/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-11-Functions-Source-code/Section11/PassByReference/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-11-Functions-Source-code/Section11/Random/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-11-Functions-Source-code/Section11/ScopeExample/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-12-Pointers-and-References-Source-code/Section12/AraysAndPointers/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-12-Pointers-and-References-Source-code/Section12/Challenge/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-12-Pointers-and-References-Source-code/Section12/ChallengeSolution/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-12-Pointers-and-References-Source-code/Section12/Debugger/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-12-Pointers-and-References-Source-code/Section12/Dereference/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-12-Pointers-and-References-Source-code/Section12/DynamicMemory/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-12-Pointers-and-References-Source-code/Section12/PassingPointers/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-12-Pointers-and-References-Source-code/Section12/PassingPointers2/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-12-Pointers-and-References-Source-code/Section12/PassingPointers3/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-12-Pointers-and-References-Source-code/Section12/PointerArithmetic/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-12-Pointers-and-References-Source-code/Section12/References/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-12-Pointers-and-References-Source-code/Section12/ReturnPointer/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-12-Pointers-and-References-Source-code/Section12/SimplePointers/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/AccessModifiers/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/AccessingClassMembers/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/Challenge/Movie.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/Challenge/Movie.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/Challenge/Movies.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/Challenge/Movies.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/Challenge/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/ChallengeSolution/Movie.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/ChallengeSolution/Movie.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/ChallengeSolution/Movies.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/ChallengeSolution/Movies.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/ChallengeSolution/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/ConstInClasses/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/ConstructorInitializationLists/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/ConstructorsAndDestructors/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/CopyConstructor/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/DeclareClassAndObjects/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/DeepCopy/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/DefaultConstructor/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/DefaultConstructorParameters/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/DelegatingConstructors/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/Friends/Friend_class.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/Friends/Friend_class.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/Friends/Other_class.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/Friends/Other_class.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/Friends/Player.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/Friends/Player.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/Friends/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/ImplementingMethods/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/ImplementingMethods2/Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/ImplementingMethods2/Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/ImplementingMethods2/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/MoveConstructor/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/ShallowCopy/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/StaticClassMembers/Player.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/StaticClassMembers/Player.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-13-OOPClasses-and-Objects-Source-code/Section13/StaticClassMembers/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Challenge-Solution1/Mystring.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Challenge-Solution1/Mystring.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Challenge-Solution1/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Challenge-Solution2/Mystring.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Challenge-Solution2/Mystring.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Challenge-Solution2/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Challenge/Mystring.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Challenge/Mystring.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Challenge/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Mystring-copy-assignment/Mystring.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Mystring-copy-assignment/Mystring.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Mystring-copy-assignment/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Mystring-insertion-extraction/Mystring.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Mystring-insertion-extraction/Mystring.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Mystring-insertion-extraction/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Mystring-move-assignment/Mystring.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Mystring-move-assignment/Mystring.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Mystring-move-assignment/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Mystring-operator-functions/Mystring.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Mystring-operator-functions/Mystring.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Mystring-operator-functions/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Mystring-operators/Mystring.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Mystring-operators/Mystring.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Mystring-operators/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Mystring-start/Mystring.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Mystring-start/Mystring.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-14-Operator-Overloading-Source-code/Section14/Mystring-start/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/BaseClassInitialization/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/Challenge/Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/Challenge/Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/Challenge/Account_Util.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/Challenge/Account_Util.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/Challenge/Savings_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/Challenge/Savings_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/Challenge/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/ChallengeSolution/Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/ChallengeSolution/Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/ChallengeSolution/Account_Util.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/ChallengeSolution/Account_Util.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/ChallengeSolution/Checking_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/ChallengeSolution/Checking_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/ChallengeSolution/Savings_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/ChallengeSolution/Savings_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/ChallengeSolution/Trust_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/ChallengeSolution/Trust_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/ChallengeSolution/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/ConstructorsAndDestructors/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/CopyConstructorAssignmentOperator/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/DerivingOurFirstClass/Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/DerivingOurFirstClass/Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/DerivingOurFirstClass/Savings_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/DerivingOurFirstClass/Savings_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/DerivingOurFirstClass/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/ProtectedMembersClassAccess/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/RedefiningBaseClassMethods/Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/RedefiningBaseClassMethods/Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/RedefiningBaseClassMethods/Savings_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/RedefiningBaseClassMethods/Savings_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-15-Inheritance-Source-code/Section15/RedefiningBaseClassMethods/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/BaseClassPointers/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/BaseClassReferences/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/Challenge/Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/Challenge/Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/Challenge/Account_Util.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/Challenge/Account_Util.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/Challenge/Checking_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/Challenge/Checking_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/Challenge/Savings_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/Challenge/Savings_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/Challenge/Trust_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/Challenge/Trust_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/Challenge/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part1/Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part1/Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part1/Account_Util.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part1/Account_Util.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part1/Checking_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part1/Checking_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part1/Savings_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part1/Savings_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part1/Trust_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part1/Trust_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part1/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part2/Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part2/Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part2/Account_Util.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part2/Account_Util.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part2/Checking_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part2/Checking_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part2/I_Printable.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part2/I_Printable.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part2/Savings_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part2/Savings_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part2/Trust_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part2/Trust_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part2/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution/Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution/Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution/Account_Util.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution/Account_Util.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution/Checking_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution/Checking_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution/I_Printable.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution/I_Printable.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution/Savings_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution/Savings_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution/Trust_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution/Trust_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/ChallengeSolution/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/Interfaces-Complete/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/Interfaces/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/PureVirtualFunctions/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/TheProblem/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/UsingFinal/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/UsingOverride/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/VirtualDestructors/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-16-Polymorphism-Source-code/Section16/VirtualFunctions/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/Challenge/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/ChallengeSolution/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/CustomDeleters/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/SharedPointers/Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/SharedPointers/Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/SharedPointers/Account_Util.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/SharedPointers/Account_Util.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/SharedPointers/Checking_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/SharedPointers/Checking_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/SharedPointers/I_Printable.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/SharedPointers/I_Printable.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/SharedPointers/Savings_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/SharedPointers/Savings_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/SharedPointers/Trust_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/SharedPointers/Trust_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/SharedPointers/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/UniquePointers/Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/UniquePointers/Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/UniquePointers/Account_Util.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/UniquePointers/Account_Util.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/UniquePointers/Checking_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/UniquePointers/Checking_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/UniquePointers/I_Printable.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/UniquePointers/I_Printable.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/UniquePointers/Savings_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/UniquePointers/Savings_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/UniquePointers/Trust_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/UniquePointers/Trust_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/UniquePointers/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-17-Smart-Pointers-Source-code/Section17/WeakPointers/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/CatchCPPExceptions/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/Challenge/Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/Challenge/Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/Challenge/Account_Util.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/Challenge/Account_Util.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/Challenge/Checking_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/Challenge/Checking_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/Challenge/I_Printable.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/Challenge/I_Printable.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/Challenge/IllegalBalanceException.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/Challenge/Savings_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/Challenge/Savings_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/Challenge/Trust_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/Challenge/Trust_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/Challenge/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution/Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution/Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution/Account_Util.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution/Account_Util.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution/Checking_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution/Checking_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution/I_Printable.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution/I_Printable.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution/IllegalBalanceException.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution/InsufficientFundsException.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution/Savings_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution/Savings_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution/Trust_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution/Trust_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ConstructorException/Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ConstructorException/Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ConstructorException/Account_Util.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ConstructorException/Account_Util.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ConstructorException/Checking_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ConstructorException/Checking_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ConstructorException/I_Printable.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ConstructorException/I_Printable.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ConstructorException/IllegalBalanceException.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ConstructorException/Savings_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ConstructorException/Savings_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ConstructorException/Trust_Account.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ConstructorException/Trust_Account.h">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/ConstructorException/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/DivideByZero/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/DivideByZeroException/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/DivideByZeroExceptionClasses/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/MPGFunctionExceptionInheritance/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/MPGFunctionMultipleExceptions/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/MPGRethrow/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/MilesPerGallonFunction/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/MilesPerGallonFunctionExceptionClasses/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-18-Exception-Handling-Source-code/Section18/StackUnwinding/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-4-Getting-Started-Source-code/Section4/ChallengeSolution/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-4-Getting-Started-Source-code/Section4/CompilerErrors/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-4-Getting-Started-Source-code/Section4/CompilerWarnings/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-4-Getting-Started-Source-code/Section4/FirstProgram/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-4-Getting-Started-Source-code/Section4/LinkerError/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-4-Getting-Started-Source-code/Section4/Project1/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-4-Getting-Started-Source-code/Section4/Project2/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-5-Structure-of-a-C-Program-Source-code/Section5/BasicIO/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-5-Structure-of-a-C-Program-Source-code/Section5/Comments/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-5-Structure-of-a-C-Program-Source-code/Section5/ModifiedProgram/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-6-Variables-and-Constants-Source-code/Section6/Challenge/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-6-Variables-and-Constants-Source-code/Section6/ChallengeSolution/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-6-Variables-and-Constants-Source-code/Section6/Constants/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-6-Variables-and-Constants-Source-code/Section6/GlobalVariables/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-6-Variables-and-Constants-Source-code/Section6/InitializingVariables/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-6-Variables-and-Constants-Source-code/Section6/PrimitiveTypes/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-6-Variables-and-Constants-Source-code/Section6/SizeofOperator/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-7-Arrays-and-Vectors-Source-code/Section7/Arrays/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-7-Arrays-and-Vectors-Source-code/Section7/Challenge/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-7-Arrays-and-Vectors-Source-code/Section7/ChallengeSolution/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-7-Arrays-and-Vectors-Source-code/Section7/Vectors/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-8-Statements-and-Operators-Source-code/Section8/ArithmeticOperators/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-8-Statements-and-Operators-Source-code/Section8/AssignmentOperator/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-8-Statements-and-Operators-Source-code/Section8/Challenge/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-8-Statements-and-Operators-Source-code/Section8/ChallengeSolution/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-8-Statements-and-Operators-Source-code/Section8/EqualityOperators/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-8-Statements-and-Operators-Source-code/Section8/Euros/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-8-Statements-and-Operators-Source-code/Section8/IncrementDecrementOperators/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-8-Statements-and-Operators-Source-code/Section8/LogicalOperators/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-8-Statements-and-Operators-Source-code/Section8/MixedExpressions/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-8-Statements-and-Operators-Source-code/Section8/RelationalOperators/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-9-Controling-Program-Flow-Source-code/Section9/Challenge/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-9-Controling-Program-Flow-Source-code/Section9/ChallengeSolution/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-9-Controling-Program-Flow-Source-code/Section9/ConditionalOperator/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-9-Controling-Program-Flow-Source-code/Section9/DoWhile/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-9-Controling-Program-Flow-Source-code/Section9/ForLoop/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-9-Controling-Program-Flow-Source-code/Section9/Grades/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-9-Controling-Program-Flow-Source-code/Section9/Histogram/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-9-Controling-Program-Flow-Source-code/Section9/IfElseStatement/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-9-Controling-Program-Flow-Source-code/Section9/IfStatement/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-9-Controling-Program-Flow-Source-code/Section9/MultiplcationTable/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-9-Controling-Program-Flow-Source-code/Section9/RangeBasedForLoop/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-9-Controling-Program-Flow-Source-code/Section9/Shipping/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-9-Controling-Program-Flow-Source-code/Section9/Switch/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-9-Controling-Program-Flow-Source-code/Section9/SwitchEnum/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section-9-Controling-Program-Flow-Source-code/Section9/WhileLoop/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section4/ChallengeSolution/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section4/CompilerErrors/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section4/CompilerWarnings/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section4/FirstProgram/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section4/LinkerError/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section4/Project1/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Section4/Project2/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-19-IO-and-Streams/Section19/Challenge_1/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-19-IO-and-Streams/Section19/Challenge_1_Solution/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-19-IO-and-Streams/Section19/Challenge_2/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-19-IO-and-Streams/Section19/Challenge_2_Solution/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-19-IO-and-Streams/Section19/Challenge_3/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-19-IO-and-Streams/Section19/Challenge_3_Solution/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-19-IO-and-Streams/Section19/Challenge_4/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-19-IO-and-Streams/Section19/Challenge_4_Solution/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-19-IO-and-Streams/Section19/Challenge_5/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-19-IO-and-Streams/Section19/Challenge_5_Solution/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-19-IO-and-Streams/Section19/CopyFile_2/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-19-IO-and-Streams/Section19/Manip_Base/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-19-IO-and-Streams/Section19/Manip_Boolean/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-19-IO-and-Streams/Section19/Manip_Fields/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-19-IO-and-Streams/Section19/Manip_Floating/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-19-IO-and-Streams/Section19/ReadFile_1/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-19-IO-and-Streams/Section19/ReadFile_2/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-19-IO-and-Streams/Section19/ReadFile_3/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-19-IO-and-Streams/Section19/ReadFile_4/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-19-IO-and-Streams/Section19/StringStream/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-19-IO-and-Streams/Section19/WriteFIle_2/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-19-IO-and-Streams/Section19/WriteFile_1/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Algorithms/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Array/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Challenge_1/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Challenge_1_Solution/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Challenge_2/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Challenge_2_Solution/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Challenge_3/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Challenge_3_Solution/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Challenge_4/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Challenge_4_Solution/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/ClassTemplateArray/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/ClassTemplates/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Deque/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/FunctionTemplates/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Iterators/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/List/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Macros/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Map/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/PriorityQueue/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Queue/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Set/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Stack/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Vector/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Algorithms/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Array/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Challenge_1/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Challenge_1_Solution/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Challenge_2/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Challenge_2_Solution/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Challenge_3/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Challenge_3_Solution/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Challenge_4/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Challenge_4_Solution/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_/ClassTemplateArray/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_/ClassTemplates/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Deque/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_/FunctionTemplates/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Iterators/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_/List/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Macros/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Map/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_/PriorityQueue/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Queue/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Set/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Stack/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Vector/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/mdbytes/Section4.2/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/mdbytes/Section4.2Challenge/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/mdbytes/Section4/Project1/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/mdbytes/Section4/Project2/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/mdbytes/main.cpp">
+			<Option target="CppBeginnerBeyond"/>
+		</Unit>
+		<Unit filename="D:/SoftwareRepository/CppBeginnerBeyond/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,430 @@
+cmake_minimum_required(VERSION 3.17)
+project(CppBeginnerBeyond)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(Section-13-OOPClasses-and-Objects-Source-code/Section13/Challenge)
+include_directories(Section-13-OOPClasses-and-Objects-Source-code/Section13/ChallengeSolution)
+include_directories(Section-13-OOPClasses-and-Objects-Source-code/Section13/Friends)
+include_directories(Section-13-OOPClasses-and-Objects-Source-code/Section13/ImplementingMethods2)
+include_directories(Section-13-OOPClasses-and-Objects-Source-code/Section13/StaticClassMembers)
+include_directories(Section-14-Operator-Overloading-Source-code/Section14/Challenge)
+include_directories(Section-14-Operator-Overloading-Source-code/Section14/Challenge-Solution1)
+include_directories(Section-14-Operator-Overloading-Source-code/Section14/Challenge-Solution2)
+include_directories(Section-14-Operator-Overloading-Source-code/Section14/Mystring-copy-assignment)
+include_directories(Section-14-Operator-Overloading-Source-code/Section14/Mystring-insertion-extraction)
+include_directories(Section-14-Operator-Overloading-Source-code/Section14/Mystring-move-assignment)
+include_directories(Section-14-Operator-Overloading-Source-code/Section14/Mystring-operator-functions)
+include_directories(Section-14-Operator-Overloading-Source-code/Section14/Mystring-operators)
+include_directories(Section-14-Operator-Overloading-Source-code/Section14/Mystring-start)
+include_directories(Section-15-Inheritance-Source-code/Section15/Challenge)
+include_directories(Section-15-Inheritance-Source-code/Section15/ChallengeSolution)
+include_directories(Section-15-Inheritance-Source-code/Section15/DerivingOurFirstClass)
+include_directories(Section-15-Inheritance-Source-code/Section15/RedefiningBaseClassMethods)
+include_directories(Section-16-Polymorphism-Source-code/Section16/Challenge)
+include_directories(Section-16-Polymorphism-Source-code/Section16/ChallengeSolution)
+include_directories(Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part1)
+include_directories(Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part2)
+include_directories(Section-17-Smart-Pointers-Source-code/Section17/SharedPointers)
+include_directories(Section-17-Smart-Pointers-Source-code/Section17/UniquePointers)
+include_directories(Section-18-Exception-Handling-Source-code/Section18/Challenge)
+include_directories(Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution)
+include_directories(Section-18-Exception-Handling-Source-code/Section18/ConstructorException)
+
+add_executable(CppBeginnerBeyond
+        mdbytes/Section4/Project1/main.cpp
+        mdbytes/Section4/Project2/main.cpp
+        mdbytes/Section4.2/main.cpp
+        mdbytes/Section4.2Challenge/main.cpp
+        mdbytes/main.cpp
+        Section-10-Characters-and-Strings-Source-code/Section10/Challenge/main.cpp
+        Section-10-Characters-and-Strings-Source-code/Section10/ChallengeSolution/main.cpp
+        Section-10-Characters-and-Strings-Source-code/Section10/CharFunctions/main.cpp
+        Section-10-Characters-and-Strings-Source-code/Section10/CPPStrings/main.cpp
+        Section-10-Characters-and-Strings-Source-code/Section10/CStyleStrings/main.cpp
+        Section-11-Functions-Source-code/Section11/ArraysAndFunctions/main.cpp
+        Section-11-Functions-Source-code/Section11/Challenge/main.cpp
+        Section-11-Functions-Source-code/Section11/ChallengeSolution/main.cpp
+        Section-11-Functions-Source-code/Section11/DefaultArguments/main.cpp
+        Section-11-Functions-Source-code/Section11/Factorial/main.cpp
+        Section-11-Functions-Source-code/Section11/Fibonacci/main.cpp
+        Section-11-Functions-Source-code/Section11/FunctionDefinitions/main.cpp
+        Section-11-Functions-Source-code/Section11/FunctionOverloading/main.cpp
+        Section-11-Functions-Source-code/Section11/FunctionParamters/main.cpp
+        Section-11-Functions-Source-code/Section11/FunctionPrototypes/main.cpp
+        Section-11-Functions-Source-code/Section11/HowFunctionCallsWork/main.cpp
+        Section-11-Functions-Source-code/Section11/Math/main.cpp
+        Section-11-Functions-Source-code/Section11/PassByReference/main.cpp
+        Section-11-Functions-Source-code/Section11/Random/main.cpp
+        Section-11-Functions-Source-code/Section11/ScopeExample/main.cpp
+        Section-12-Pointers-and-References-Source-code/Section12/AraysAndPointers/main.cpp
+        Section-12-Pointers-and-References-Source-code/Section12/Challenge/main.cpp
+        Section-12-Pointers-and-References-Source-code/Section12/ChallengeSolution/main.cpp
+        Section-12-Pointers-and-References-Source-code/Section12/Debugger/main.cpp
+        Section-12-Pointers-and-References-Source-code/Section12/Dereference/main.cpp
+        Section-12-Pointers-and-References-Source-code/Section12/DynamicMemory/main.cpp
+        Section-12-Pointers-and-References-Source-code/Section12/PassingPointers/main.cpp
+        Section-12-Pointers-and-References-Source-code/Section12/PassingPointers2/main.cpp
+        Section-12-Pointers-and-References-Source-code/Section12/PassingPointers3/main.cpp
+        Section-12-Pointers-and-References-Source-code/Section12/PointerArithmetic/main.cpp
+        Section-12-Pointers-and-References-Source-code/Section12/References/main.cpp
+        Section-12-Pointers-and-References-Source-code/Section12/ReturnPointer/main.cpp
+        Section-12-Pointers-and-References-Source-code/Section12/SimplePointers/main.cpp
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/AccessingClassMembers/main.cpp
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/AccessModifiers/main.cpp
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/Challenge/main.cpp
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/Challenge/Movie.cpp
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/Challenge/Movie.h
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/Challenge/Movies.cpp
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/Challenge/Movies.h
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/ChallengeSolution/main.cpp
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/ChallengeSolution/Movie.cpp
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/ChallengeSolution/Movie.h
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/ChallengeSolution/Movies.cpp
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/ChallengeSolution/Movies.h
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/ConstInClasses/main.cpp
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/ConstructorInitializationLists/main.cpp
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/ConstructorsAndDestructors/main.cpp
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/CopyConstructor/main.cpp
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/DeclareClassAndObjects/main.cpp
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/DeepCopy/main.cpp
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/DefaultConstructor/main.cpp
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/DefaultConstructorParameters/main.cpp
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/DelegatingConstructors/main.cpp
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/Friends/Friend_class.cpp
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/Friends/Friend_class.h
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/Friends/main.cpp
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/Friends/Other_class.cpp
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/Friends/Other_class.h
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/Friends/Player.cpp
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/Friends/Player.h
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/ImplementingMethods/main.cpp
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/ImplementingMethods2/Account.cpp
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/ImplementingMethods2/Account.h
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/ImplementingMethods2/main.cpp
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/MoveConstructor/main.cpp
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/ShallowCopy/main.cpp
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/StaticClassMembers/main.cpp
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/StaticClassMembers/Player.cpp
+        Section-13-OOPClasses-and-Objects-Source-code/Section13/StaticClassMembers/Player.h
+        Section-14-Operator-Overloading-Source-code/Section14/Challenge/main.cpp
+        Section-14-Operator-Overloading-Source-code/Section14/Challenge/Mystring.cpp
+        Section-14-Operator-Overloading-Source-code/Section14/Challenge/Mystring.h
+        Section-14-Operator-Overloading-Source-code/Section14/Challenge-Solution1/main.cpp
+        Section-14-Operator-Overloading-Source-code/Section14/Challenge-Solution1/Mystring.cpp
+        Section-14-Operator-Overloading-Source-code/Section14/Challenge-Solution1/Mystring.h
+        Section-14-Operator-Overloading-Source-code/Section14/Challenge-Solution2/main.cpp
+        Section-14-Operator-Overloading-Source-code/Section14/Challenge-Solution2/Mystring.cpp
+        Section-14-Operator-Overloading-Source-code/Section14/Challenge-Solution2/Mystring.h
+        Section-14-Operator-Overloading-Source-code/Section14/Mystring-copy-assignment/main.cpp
+        Section-14-Operator-Overloading-Source-code/Section14/Mystring-copy-assignment/Mystring.cpp
+        Section-14-Operator-Overloading-Source-code/Section14/Mystring-copy-assignment/Mystring.h
+        Section-14-Operator-Overloading-Source-code/Section14/Mystring-insertion-extraction/main.cpp
+        Section-14-Operator-Overloading-Source-code/Section14/Mystring-insertion-extraction/Mystring.cpp
+        Section-14-Operator-Overloading-Source-code/Section14/Mystring-insertion-extraction/Mystring.h
+        Section-14-Operator-Overloading-Source-code/Section14/Mystring-move-assignment/main.cpp
+        Section-14-Operator-Overloading-Source-code/Section14/Mystring-move-assignment/Mystring.cpp
+        Section-14-Operator-Overloading-Source-code/Section14/Mystring-move-assignment/Mystring.h
+        Section-14-Operator-Overloading-Source-code/Section14/Mystring-operator-functions/main.cpp
+        Section-14-Operator-Overloading-Source-code/Section14/Mystring-operator-functions/Mystring.cpp
+        Section-14-Operator-Overloading-Source-code/Section14/Mystring-operator-functions/Mystring.h
+        Section-14-Operator-Overloading-Source-code/Section14/Mystring-operators/main.cpp
+        Section-14-Operator-Overloading-Source-code/Section14/Mystring-operators/Mystring.cpp
+        Section-14-Operator-Overloading-Source-code/Section14/Mystring-operators/Mystring.h
+        Section-14-Operator-Overloading-Source-code/Section14/Mystring-start/main.cpp
+        Section-14-Operator-Overloading-Source-code/Section14/Mystring-start/Mystring.cpp
+        Section-14-Operator-Overloading-Source-code/Section14/Mystring-start/Mystring.h
+        Section-15-Inheritance-Source-code/Section15/BaseClassInitialization/main.cpp
+        Section-15-Inheritance-Source-code/Section15/Challenge/Account.cpp
+        Section-15-Inheritance-Source-code/Section15/Challenge/Account.h
+        Section-15-Inheritance-Source-code/Section15/Challenge/Account_Util.cpp
+        Section-15-Inheritance-Source-code/Section15/Challenge/Account_Util.h
+        Section-15-Inheritance-Source-code/Section15/Challenge/main.cpp
+        Section-15-Inheritance-Source-code/Section15/Challenge/Savings_Account.cpp
+        Section-15-Inheritance-Source-code/Section15/Challenge/Savings_Account.h
+        Section-15-Inheritance-Source-code/Section15/ChallengeSolution/Account.cpp
+        Section-15-Inheritance-Source-code/Section15/ChallengeSolution/Account.h
+        Section-15-Inheritance-Source-code/Section15/ChallengeSolution/Account_Util.cpp
+        Section-15-Inheritance-Source-code/Section15/ChallengeSolution/Account_Util.h
+        Section-15-Inheritance-Source-code/Section15/ChallengeSolution/Checking_Account.cpp
+        Section-15-Inheritance-Source-code/Section15/ChallengeSolution/Checking_Account.h
+        Section-15-Inheritance-Source-code/Section15/ChallengeSolution/main.cpp
+        Section-15-Inheritance-Source-code/Section15/ChallengeSolution/Savings_Account.cpp
+        Section-15-Inheritance-Source-code/Section15/ChallengeSolution/Savings_Account.h
+        Section-15-Inheritance-Source-code/Section15/ChallengeSolution/Trust_Account.cpp
+        Section-15-Inheritance-Source-code/Section15/ChallengeSolution/Trust_Account.h
+        Section-15-Inheritance-Source-code/Section15/ConstructorsAndDestructors/main.cpp
+        Section-15-Inheritance-Source-code/Section15/CopyConstructorAssignmentOperator/main.cpp
+        Section-15-Inheritance-Source-code/Section15/DerivingOurFirstClass/Account.cpp
+        Section-15-Inheritance-Source-code/Section15/DerivingOurFirstClass/Account.h
+        Section-15-Inheritance-Source-code/Section15/DerivingOurFirstClass/main.cpp
+        Section-15-Inheritance-Source-code/Section15/DerivingOurFirstClass/Savings_Account.cpp
+        Section-15-Inheritance-Source-code/Section15/DerivingOurFirstClass/Savings_Account.h
+        Section-15-Inheritance-Source-code/Section15/ProtectedMembersClassAccess/main.cpp
+        Section-15-Inheritance-Source-code/Section15/RedefiningBaseClassMethods/Account.cpp
+        Section-15-Inheritance-Source-code/Section15/RedefiningBaseClassMethods/Account.h
+        Section-15-Inheritance-Source-code/Section15/RedefiningBaseClassMethods/main.cpp
+        Section-15-Inheritance-Source-code/Section15/RedefiningBaseClassMethods/Savings_Account.cpp
+        Section-15-Inheritance-Source-code/Section15/RedefiningBaseClassMethods/Savings_Account.h
+        Section-16-Polymorphism-Source-code/Section16/BaseClassPointers/main.cpp
+        Section-16-Polymorphism-Source-code/Section16/BaseClassReferences/main.cpp
+        Section-16-Polymorphism-Source-code/Section16/Challenge/Account.cpp
+        Section-16-Polymorphism-Source-code/Section16/Challenge/Account.h
+        Section-16-Polymorphism-Source-code/Section16/Challenge/Account_Util.cpp
+        Section-16-Polymorphism-Source-code/Section16/Challenge/Account_Util.h
+        Section-16-Polymorphism-Source-code/Section16/Challenge/Checking_Account.cpp
+        Section-16-Polymorphism-Source-code/Section16/Challenge/Checking_Account.h
+        Section-16-Polymorphism-Source-code/Section16/Challenge/main.cpp
+        Section-16-Polymorphism-Source-code/Section16/Challenge/Savings_Account.cpp
+        Section-16-Polymorphism-Source-code/Section16/Challenge/Savings_Account.h
+        Section-16-Polymorphism-Source-code/Section16/Challenge/Trust_Account.cpp
+        Section-16-Polymorphism-Source-code/Section16/Challenge/Trust_Account.h
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution/Account.cpp
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution/Account.h
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution/Account_Util.cpp
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution/Account_Util.h
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution/Checking_Account.cpp
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution/Checking_Account.h
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution/I_Printable.cpp
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution/I_Printable.h
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution/main.cpp
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution/Savings_Account.cpp
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution/Savings_Account.h
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution/Trust_Account.cpp
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution/Trust_Account.h
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part1/Account.cpp
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part1/Account.h
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part1/Account_Util.cpp
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part1/Account_Util.h
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part1/Checking_Account.cpp
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part1/Checking_Account.h
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part1/main.cpp
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part1/Savings_Account.cpp
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part1/Savings_Account.h
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part1/Trust_Account.cpp
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part1/Trust_Account.h
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part2/Account.cpp
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part2/Account.h
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part2/Account_Util.cpp
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part2/Account_Util.h
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part2/Checking_Account.cpp
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part2/Checking_Account.h
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part2/I_Printable.cpp
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part2/I_Printable.h
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part2/main.cpp
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part2/Savings_Account.cpp
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part2/Savings_Account.h
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part2/Trust_Account.cpp
+        Section-16-Polymorphism-Source-code/Section16/ChallengeSolution-Part2/Trust_Account.h
+        Section-16-Polymorphism-Source-code/Section16/Interfaces/main.cpp
+        Section-16-Polymorphism-Source-code/Section16/Interfaces-Complete/main.cpp
+        Section-16-Polymorphism-Source-code/Section16/PureVirtualFunctions/main.cpp
+        Section-16-Polymorphism-Source-code/Section16/TheProblem/main.cpp
+        Section-16-Polymorphism-Source-code/Section16/UsingFinal/main.cpp
+        Section-16-Polymorphism-Source-code/Section16/UsingOverride/main.cpp
+        Section-16-Polymorphism-Source-code/Section16/VirtualDestructors/main.cpp
+        Section-16-Polymorphism-Source-code/Section16/VirtualFunctions/main.cpp
+        Section-17-Smart-Pointers-Source-code/Section17/Challenge/main.cpp
+        Section-17-Smart-Pointers-Source-code/Section17/ChallengeSolution/main.cpp
+        Section-17-Smart-Pointers-Source-code/Section17/CustomDeleters/main.cpp
+        Section-17-Smart-Pointers-Source-code/Section17/SharedPointers/Account.cpp
+        Section-17-Smart-Pointers-Source-code/Section17/SharedPointers/Account.h
+        Section-17-Smart-Pointers-Source-code/Section17/SharedPointers/Account_Util.cpp
+        Section-17-Smart-Pointers-Source-code/Section17/SharedPointers/Account_Util.h
+        Section-17-Smart-Pointers-Source-code/Section17/SharedPointers/Checking_Account.cpp
+        Section-17-Smart-Pointers-Source-code/Section17/SharedPointers/Checking_Account.h
+        Section-17-Smart-Pointers-Source-code/Section17/SharedPointers/I_Printable.cpp
+        Section-17-Smart-Pointers-Source-code/Section17/SharedPointers/I_Printable.h
+        Section-17-Smart-Pointers-Source-code/Section17/SharedPointers/main.cpp
+        Section-17-Smart-Pointers-Source-code/Section17/SharedPointers/Savings_Account.cpp
+        Section-17-Smart-Pointers-Source-code/Section17/SharedPointers/Savings_Account.h
+        Section-17-Smart-Pointers-Source-code/Section17/SharedPointers/Trust_Account.cpp
+        Section-17-Smart-Pointers-Source-code/Section17/SharedPointers/Trust_Account.h
+        Section-17-Smart-Pointers-Source-code/Section17/UniquePointers/Account.cpp
+        Section-17-Smart-Pointers-Source-code/Section17/UniquePointers/Account.h
+        Section-17-Smart-Pointers-Source-code/Section17/UniquePointers/Account_Util.cpp
+        Section-17-Smart-Pointers-Source-code/Section17/UniquePointers/Account_Util.h
+        Section-17-Smart-Pointers-Source-code/Section17/UniquePointers/Checking_Account.cpp
+        Section-17-Smart-Pointers-Source-code/Section17/UniquePointers/Checking_Account.h
+        Section-17-Smart-Pointers-Source-code/Section17/UniquePointers/I_Printable.cpp
+        Section-17-Smart-Pointers-Source-code/Section17/UniquePointers/I_Printable.h
+        Section-17-Smart-Pointers-Source-code/Section17/UniquePointers/main.cpp
+        Section-17-Smart-Pointers-Source-code/Section17/UniquePointers/Savings_Account.cpp
+        Section-17-Smart-Pointers-Source-code/Section17/UniquePointers/Savings_Account.h
+        Section-17-Smart-Pointers-Source-code/Section17/UniquePointers/Trust_Account.cpp
+        Section-17-Smart-Pointers-Source-code/Section17/UniquePointers/Trust_Account.h
+        Section-17-Smart-Pointers-Source-code/Section17/WeakPointers/main.cpp
+        Section-18-Exception-Handling-Source-code/Section18/CatchCPPExceptions/main.cpp
+        Section-18-Exception-Handling-Source-code/Section18/Challenge/Account.cpp
+        Section-18-Exception-Handling-Source-code/Section18/Challenge/Account.h
+        Section-18-Exception-Handling-Source-code/Section18/Challenge/Account_Util.cpp
+        Section-18-Exception-Handling-Source-code/Section18/Challenge/Account_Util.h
+        Section-18-Exception-Handling-Source-code/Section18/Challenge/Checking_Account.cpp
+        Section-18-Exception-Handling-Source-code/Section18/Challenge/Checking_Account.h
+        Section-18-Exception-Handling-Source-code/Section18/Challenge/I_Printable.cpp
+        Section-18-Exception-Handling-Source-code/Section18/Challenge/I_Printable.h
+        Section-18-Exception-Handling-Source-code/Section18/Challenge/IllegalBalanceException.h
+        Section-18-Exception-Handling-Source-code/Section18/Challenge/main.cpp
+        Section-18-Exception-Handling-Source-code/Section18/Challenge/Savings_Account.cpp
+        Section-18-Exception-Handling-Source-code/Section18/Challenge/Savings_Account.h
+        Section-18-Exception-Handling-Source-code/Section18/Challenge/Trust_Account.cpp
+        Section-18-Exception-Handling-Source-code/Section18/Challenge/Trust_Account.h
+        Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution/Account.cpp
+        Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution/Account.h
+        Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution/Account_Util.cpp
+        Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution/Account_Util.h
+        Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution/Checking_Account.cpp
+        Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution/Checking_Account.h
+        Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution/I_Printable.cpp
+        Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution/I_Printable.h
+        Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution/IllegalBalanceException.h
+        Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution/InsufficientFundsException.h
+        Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution/main.cpp
+        Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution/Savings_Account.cpp
+        Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution/Savings_Account.h
+        Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution/Trust_Account.cpp
+        Section-18-Exception-Handling-Source-code/Section18/ChallengeSolution/Trust_Account.h
+        Section-18-Exception-Handling-Source-code/Section18/ConstructorException/Account.cpp
+        Section-18-Exception-Handling-Source-code/Section18/ConstructorException/Account.h
+        Section-18-Exception-Handling-Source-code/Section18/ConstructorException/Account_Util.cpp
+        Section-18-Exception-Handling-Source-code/Section18/ConstructorException/Account_Util.h
+        Section-18-Exception-Handling-Source-code/Section18/ConstructorException/Checking_Account.cpp
+        Section-18-Exception-Handling-Source-code/Section18/ConstructorException/Checking_Account.h
+        Section-18-Exception-Handling-Source-code/Section18/ConstructorException/I_Printable.cpp
+        Section-18-Exception-Handling-Source-code/Section18/ConstructorException/I_Printable.h
+        Section-18-Exception-Handling-Source-code/Section18/ConstructorException/IllegalBalanceException.h
+        Section-18-Exception-Handling-Source-code/Section18/ConstructorException/main.cpp
+        Section-18-Exception-Handling-Source-code/Section18/ConstructorException/Savings_Account.cpp
+        Section-18-Exception-Handling-Source-code/Section18/ConstructorException/Savings_Account.h
+        Section-18-Exception-Handling-Source-code/Section18/ConstructorException/Trust_Account.cpp
+        Section-18-Exception-Handling-Source-code/Section18/ConstructorException/Trust_Account.h
+        Section-18-Exception-Handling-Source-code/Section18/DivideByZero/main.cpp
+        Section-18-Exception-Handling-Source-code/Section18/DivideByZeroException/main.cpp
+        Section-18-Exception-Handling-Source-code/Section18/DivideByZeroExceptionClasses/main.cpp
+        Section-18-Exception-Handling-Source-code/Section18/MilesPerGallonFunction/main.cpp
+        Section-18-Exception-Handling-Source-code/Section18/MilesPerGallonFunctionExceptionClasses/main.cpp
+        Section-18-Exception-Handling-Source-code/Section18/MPGFunctionExceptionInheritance/main.cpp
+        Section-18-Exception-Handling-Source-code/Section18/MPGFunctionMultipleExceptions/main.cpp
+        Section-18-Exception-Handling-Source-code/Section18/MPGRethrow/main.cpp
+        Section-18-Exception-Handling-Source-code/Section18/StackUnwinding/main.cpp
+        Section-4-Getting-Started-Source-code/Section4/ChallengeSolution/main.cpp
+        Section-4-Getting-Started-Source-code/Section4/CompilerErrors/main.cpp
+        Section-4-Getting-Started-Source-code/Section4/CompilerWarnings/main.cpp
+        Section-4-Getting-Started-Source-code/Section4/FirstProgram/main.cpp
+        Section-4-Getting-Started-Source-code/Section4/LinkerError/main.cpp
+        Section-4-Getting-Started-Source-code/Section4/Project1/main.cpp
+        Section-4-Getting-Started-Source-code/Section4/Project2/main.cpp
+        Section-5-Structure-of-a-C-Program-Source-code/Section5/BasicIO/main.cpp
+        Section-5-Structure-of-a-C-Program-Source-code/Section5/Comments/main.cpp
+        Section-5-Structure-of-a-C-Program-Source-code/Section5/ModifiedProgram/main.cpp
+        Section-6-Variables-and-Constants-Source-code/Section6/Challenge/main.cpp
+        Section-6-Variables-and-Constants-Source-code/Section6/ChallengeSolution/main.cpp
+        Section-6-Variables-and-Constants-Source-code/Section6/Constants/main.cpp
+        Section-6-Variables-and-Constants-Source-code/Section6/GlobalVariables/main.cpp
+        Section-6-Variables-and-Constants-Source-code/Section6/InitializingVariables/main.cpp
+        Section-6-Variables-and-Constants-Source-code/Section6/PrimitiveTypes/main.cpp
+        Section-6-Variables-and-Constants-Source-code/Section6/SizeofOperator/main.cpp
+        Section-7-Arrays-and-Vectors-Source-code/Section7/Arrays/main.cpp
+        Section-7-Arrays-and-Vectors-Source-code/Section7/Challenge/main.cpp
+        Section-7-Arrays-and-Vectors-Source-code/Section7/ChallengeSolution/main.cpp
+        Section-7-Arrays-and-Vectors-Source-code/Section7/Vectors/main.cpp
+        Section-8-Statements-and-Operators-Source-code/Section8/ArithmeticOperators/main.cpp
+        Section-8-Statements-and-Operators-Source-code/Section8/AssignmentOperator/main.cpp
+        Section-8-Statements-and-Operators-Source-code/Section8/Challenge/main.cpp
+        Section-8-Statements-and-Operators-Source-code/Section8/ChallengeSolution/main.cpp
+        Section-8-Statements-and-Operators-Source-code/Section8/EqualityOperators/main.cpp
+        Section-8-Statements-and-Operators-Source-code/Section8/Euros/main.cpp
+        Section-8-Statements-and-Operators-Source-code/Section8/IncrementDecrementOperators/main.cpp
+        Section-8-Statements-and-Operators-Source-code/Section8/LogicalOperators/main.cpp
+        Section-8-Statements-and-Operators-Source-code/Section8/MixedExpressions/main.cpp
+        Section-8-Statements-and-Operators-Source-code/Section8/RelationalOperators/main.cpp
+        Section-9-Controling-Program-Flow-Source-code/Section9/Challenge/main.cpp
+        Section-9-Controling-Program-Flow-Source-code/Section9/ChallengeSolution/main.cpp
+        Section-9-Controling-Program-Flow-Source-code/Section9/ConditionalOperator/main.cpp
+        Section-9-Controling-Program-Flow-Source-code/Section9/DoWhile/main.cpp
+        Section-9-Controling-Program-Flow-Source-code/Section9/ForLoop/main.cpp
+        Section-9-Controling-Program-Flow-Source-code/Section9/Grades/main.cpp
+        Section-9-Controling-Program-Flow-Source-code/Section9/Histogram/main.cpp
+        Section-9-Controling-Program-Flow-Source-code/Section9/IfElseStatement/main.cpp
+        Section-9-Controling-Program-Flow-Source-code/Section9/IfStatement/main.cpp
+        Section-9-Controling-Program-Flow-Source-code/Section9/MultiplcationTable/main.cpp
+        Section-9-Controling-Program-Flow-Source-code/Section9/RangeBasedForLoop/main.cpp
+        Section-9-Controling-Program-Flow-Source-code/Section9/Shipping/main.cpp
+        Section-9-Controling-Program-Flow-Source-code/Section9/Switch/main.cpp
+        Section-9-Controling-Program-Flow-Source-code/Section9/SwitchEnum/main.cpp
+        Section-9-Controling-Program-Flow-Source-code/Section9/WhileLoop/main.cpp
+        Section4/ChallengeSolution/main.cpp
+        Section4/CompilerErrors/main.cpp
+        Section4/CompilerWarnings/main.cpp
+        Section4/FirstProgram/main.cpp
+        Section4/LinkerError/main.cpp
+        Section4/Project1/main.cpp
+        Section4/Project2/main.cpp
+        Source-codes-Section-19-IO-and-Streams/Section19/Challenge_1/main.cpp
+        Source-codes-Section-19-IO-and-Streams/Section19/Challenge_1_Solution/main.cpp
+        Source-codes-Section-19-IO-and-Streams/Section19/Challenge_2/main.cpp
+        Source-codes-Section-19-IO-and-Streams/Section19/Challenge_2_Solution/main.cpp
+        Source-codes-Section-19-IO-and-Streams/Section19/Challenge_3/main.cpp
+        Source-codes-Section-19-IO-and-Streams/Section19/Challenge_3_Solution/main.cpp
+        Source-codes-Section-19-IO-and-Streams/Section19/Challenge_4/main.cpp
+        Source-codes-Section-19-IO-and-Streams/Section19/Challenge_4_Solution/main.cpp
+        Source-codes-Section-19-IO-and-Streams/Section19/Challenge_5/main.cpp
+        Source-codes-Section-19-IO-and-Streams/Section19/Challenge_5_Solution/main.cpp
+        Source-codes-Section-19-IO-and-Streams/Section19/CopyFile_2/main.cpp
+        Source-codes-Section-19-IO-and-Streams/Section19/Manip_Base/main.cpp
+        Source-codes-Section-19-IO-and-Streams/Section19/Manip_Boolean/main.cpp
+        Source-codes-Section-19-IO-and-Streams/Section19/Manip_Fields/main.cpp
+        Source-codes-Section-19-IO-and-Streams/Section19/Manip_Floating/main.cpp
+        Source-codes-Section-19-IO-and-Streams/Section19/ReadFile_1/main.cpp
+        Source-codes-Section-19-IO-and-Streams/Section19/ReadFile_2/main.cpp
+        Source-codes-Section-19-IO-and-Streams/Section19/ReadFile_3/main.cpp
+        Source-codes-Section-19-IO-and-Streams/Section19/ReadFile_4/main.cpp
+        Source-codes-Section-19-IO-and-Streams/Section19/StringStream/main.cpp
+        Source-codes-Section-19-IO-and-Streams/Section19/WriteFile_1/main.cpp
+        Source-codes-Section-19-IO-and-Streams/Section19/WriteFIle_2/main.cpp
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Algorithms/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Array/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Challenge_1/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Challenge_1_Solution/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Challenge_2/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Challenge_2_Solution/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Challenge_3/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Challenge_3_Solution/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Challenge_4/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Challenge_4_Solution/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_/ClassTemplateArray/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_/ClassTemplates/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Deque/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_/FunctionTemplates/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Iterators/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_/List/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Macros/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Map/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_/PriorityQueue/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Queue/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Set/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Stack/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_/Vector/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Algorithms/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Array/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Challenge_1/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Challenge_1_Solution/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Challenge_2/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Challenge_2_Solution/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Challenge_3/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Challenge_3_Solution/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Challenge_4/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Challenge_4_Solution/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/ClassTemplateArray/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/ClassTemplates/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Deque/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/FunctionTemplates/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Iterators/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/List/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Macros/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Map/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/PriorityQueue/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Queue/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Set/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Stack/main.cpp"
+        "Source-codes-Section-20-The-Standard-Template-Library-(STL)_ (1)/Vector/main.cpp")

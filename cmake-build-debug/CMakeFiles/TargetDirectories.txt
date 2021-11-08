@@ -1,0 +1,3 @@
+D:/SoftwareRepository/CppBeginnerBeyond/cmake-build-debug/CMakeFiles/CppBeginnerBeyond.dir
+D:/SoftwareRepository/CppBeginnerBeyond/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/SoftwareRepository/CppBeginnerBeyond/cmake-build-debug/CMakeFiles/rebuild_cache.dir
